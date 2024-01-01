@@ -1,1 +1,5 @@
-# flutter-nomadcoders-toonflix
+# 노마드코더 플러터 웹툰 앱
+## 6.0 ~ 6.3 정리
+- dart http 라이브러리 적용
+- 노마드코더에서 제공하는 웹툰 API로 오늘의 웹툰 JSON 데이터 불러오기
+- JSON 데이터 파싱

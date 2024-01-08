@@ -16,3 +16,10 @@
   2. ListView.builder 1개의 필수값이 존재함 (추천)
   3. ListView.separated 2개의 필수값이 존재함 (추천)
 - builder와 separated를 추천하는 이유는 **사용자가 보고있는 화면의 값만 불러오고 보고있지 않은 화면은 메모리에서 삭제한다** 일반 ListView는 List에 담겨있는 모든 값을 불러온다.
+
+## 6.8 정리
+- ListView를 공통 메소드로 변경
+- 웹툰 이미지 불러오기
+  -. Image.network에 src(주소) 입력 및 User-agent 설정
+     - 예시) https://image...
+     - User-agent는 HTTP 요청을 보내는 디바이스와 브라우저 등 사용자 소프트웨어의 식별 정보를 담고 있는 request header의 한 종류이다. 임의로 수정될 수 없는 값이고, 보통 HTTP 요청 에러가 발생했을 때 요청을 보낸 사용자 환경을 알아보기 위해 사용한다.

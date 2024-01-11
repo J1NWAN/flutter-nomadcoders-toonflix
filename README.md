@@ -23,3 +23,14 @@
   -. Image.network에 src(주소) 입력 및 User-agent 설정
      - 예시) https://image...
      - User-agent는 HTTP 요청을 보내는 디바이스와 브라우저 등 사용자 소프트웨어의 식별 정보를 담고 있는 request header의 한 종류이다. 임의로 수정될 수 없는 값이고, 보통 HTTP 요청 에러가 발생했을 때 요청을 보낸 사용자 환경을 알아보기 위해 사용한다.
+
+## 6.9 정리
+- widget 분리 및 상세페이지 화면 추가
+- 목록화면(homeScreen)에서 웹툰 클릭 시 상세화면(detailScreen) 페이지로 이동
+- GestureDetector 사용
+  - 제스처를 감지하는 위젯(onTab 사용)
+- Navigator.push 사용
+  - 화면전환 할 때 사용
+  - default 화면전환 애니메이션은 슬라이드 형식의 애니메이션이며, **fullscreenDialog: true**를 사용하면 화면전환 될 페이지가 아래에서 올라오는 애니메이션을 제공한다.
+  - context와 route(MaterialPageRoute)를 매개변수로 받는다.
+  - MaterialPageRoute는 builder를 사용할 수 있는데, StatelessWidget와 같은 위젯을 매개변수로 받는다.

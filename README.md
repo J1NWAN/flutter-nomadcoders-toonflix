@@ -34,3 +34,9 @@
   - default 화면전환 애니메이션은 슬라이드 형식의 애니메이션이며, **fullscreenDialog: true**를 사용하면 화면전환 될 페이지가 아래에서 올라오는 애니메이션을 제공한다.
   - context와 route(MaterialPageRoute)를 매개변수로 받는다.
   - MaterialPageRoute는 builder를 사용할 수 있는데, StatelessWidget와 같은 위젯을 매개변수로 받는다.
+
+## 6.10 정리
+- Hero 위젯을 이용하여 애니메이션 효과 추가
+  - 이전까지는 화면이 바뀌는 애니메이션으로 사용했다면 Hero 위젯은 해당 영역만 이동되는 것 처럼 보여주는 위젯이다.
+  - Container 처럼 한 영역을 담당하는 위젯에 Wrap with Widget을 해서 Hero를 입력하여 사용하면 되고, 필수 파라메터는 tag이다.
+  - tag에는 해당 영역에 고유값(id 등)을 받도록 해주면 된다.

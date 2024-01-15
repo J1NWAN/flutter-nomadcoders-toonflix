@@ -45,3 +45,9 @@
 - 6.11 강의는 이전(6.7 ~ 6.11)강의 복습
 - 웹툰의 에피소드(해당 웹툰의 목록페이지) 화면에 출력될 데이터를 받아오도록 함.
 - 이전 강의에서 만든 API로 데이터 받아올 수 있도록 만든 함수와 동일한 기능으로 구현하고 이 함수는 에피소드 데이터를 가지고 있다.
+
+## 6.13 정리
+- DetailScreen에서 WebtoonDetailModel, WebtoonEpisodeModel의 id값을 초기화 시켜준다.
+- id를 초기화 시켜주기 위해선 StatelessWidget에서 StatefulWidget으로 변경한다.
+- statefulWidget에서 data(title, id 등)를 사용하려면 widget.**데이터명**을 입력하여 사용한다.
+- widget은 StatefulWidget을 의미하고 StatefulWidget에서 선언된 변수를 사용할 수 있다.
